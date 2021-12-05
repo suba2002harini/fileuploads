@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Upload
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body style="background-color: gray;">
+        <br><br><br><center>
+        <div class="border " style="padding: 10px 50px;background-color: #ffffff;
+        border: 1px solid;
+        opacity: 0.8; font-weight: bold;font-size: 20px;border-radius: 50px;width: 50%;">
+           <form class="form-group" method="post" action="/upload" enctype="multipart/form-data">
+            Name:
+            <input type="text" id="fname" placeholder="Enter your name" style="width:300px;" class="form-control" name="name" required>
+            <br>
+        <input type="file" name="file" required style="width:300px;" class="form-control"><br>
+        <br><input class="btn btn-info" type="submit" value="Upload" name="submit" style="
+        border: 20px ;
+        color: black;
+        padding: 20px 90px; 
+        cursor: pointer; 
+        font-style:italic ;
+        font-weight: bold;
+        font-size: 100%;">
+            </form>         
+                    
+                    </div>
+                </center>
+    </body>
+</html>

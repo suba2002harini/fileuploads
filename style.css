@@ -1,0 +1,51 @@
+
+li:hover{
+    
+    color: black;
+}
+.df:hover{
+     background-color: white;
+    color:black;
+}
+.item-2{
+    background: #252B42;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+.item-4{
+    background: #252B42;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+
+}
+.it-1{
+    flex: 3;
+    order:1;
+    margin-left: 10%;
+}
+.it-2{
+    flex: 1;
+    order:2;
+    font-size: 20px;
+    justify-content: space-between;
+}
